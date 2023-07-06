@@ -1,0 +1,27 @@
+.pointWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.edgePointWrapper {
+  display: flex;
+}
+
+.edgePoint {
+  width: 400px;
+  height: 30px;
+  margin-bottom: 15px;
+}
+
+.portsList {
+  display: flex;
+  flex-wrap: wrap;
+  align-self:baseline;
+  margin-top: -2px;
+  width: auto;
+  
+}
+
+.selectPort {
+  margin: 10px 0 0 10px;
+}

@@ -1,0 +1,10 @@
+.pointWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.edgePoint {
+  width: 400px;
+  height: 30px;
+  margin-bottom: 15px;
+}
