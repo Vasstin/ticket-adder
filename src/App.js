@@ -16,11 +16,11 @@ function App() {
   }
   function formBodyChange(event) {
     const data = event.target.value;
-    
+    console.log(data)
     const strToArray = data.split("\n");
     const newArray = [];
     strToArray.map((item) => {
-      if (item.includes('sw') && !item.includes('um')) {
+      if (item.includes('sw') && !item.includes('um') || item.includes('ms') && !item.includes('um')) {
         console.log(item)
         newArray.push(item);
       }
